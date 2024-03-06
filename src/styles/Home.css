@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+.spock-headshot {
+    width: 60%;
+    background-color: transparent;
+}
+
+
+.bio-text {
+    max-width: 34rem;
+    background-color: #D3D3D380;
+    border-radius: 15%;
+} 
+
+@media all and (max-width: 990px) and (min-width: 700px) {
+    .bio-text {
+        margin-left: 10%;
+     }
+}
